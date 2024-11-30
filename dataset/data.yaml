@@ -1,0 +1,12 @@
+train: C:\Python Project\yolov5\dataset\train\images\train
+val: C:\Python Project\yolov5\dataset\train\images\val
+
+nc: 2
+names: ['Drunk', 'Sober']
+
+roboflow:
+  workspace: prerak
+  project: drunk-detection-r4oat
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/prerak/drunk-detection-r4oat/dataset/2
